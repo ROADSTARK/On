@@ -1,0 +1,340 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif; /* Example font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; 
+    opacity: 2;
+}
+
+.logo{
+    color: black;
+    font-size: 5em;
+    font-weight: 100;
+    font-style: bold;
+}
+
+span{
+    color: gold;
+}
+
+header {
+    background-image: url(Boti+Waterfalls.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition: ease-in-out;
+    animation: road ease-in-out 20s;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Adjust padding as needed */
+}
+
+@keyframes road{
+    0%{
+        background-image: url(Solnedgang_pa_Labadi_beach.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    25%{
+        background-image: url(ghana-independence-square-1es637ofsnln2qnf.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    50%{
+        background-image: url(1967_ShaiHills.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    75%{
+        background-image: url(img_4865.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    100%{
+        background-image: url(makola.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the navigation links */
+}
+
+nav li {
+    display: inline-flex;
+    margin: 0 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+nav a:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header button {
+    background-color: green;
+    color: white;
+    border-radius: 2em;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+header button a{
+    text-decoration: none;
+    color: white;
+}
+
+header button:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.attractions {
+    padding: 50px;
+    text-align: center;
+}
+
+.attractions h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.attraction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.attraction {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.attraction img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.attraction h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ter{
+    border-radius: 5em;
+    width: 5%;
+}
+
+/* Basic responsive design */
+@media (max-width: 768px) {
+    nav li {
+        display: block; /* Stack navigation links vertically */
+        margin: 10px 0;
+    }
+}
+
+/* Attraction Styling */
+h1{
+    text-align: center;
+}
+
+.log{
+    color: #000;
+    font-size: 5em;
+    font-weight: 100;
+    font-style: bold;
+}
+
+.accra{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5em;
+}
+
+.great {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.kwame {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.kwame img{
+    width: 50%;
+    height: 30%;
+}
+
+.bold{
+    font-size: 2em;
+    color: #333;
+}
+
+.footer{
+    background-color: #333;
+    padding: 1em;
+}
+
+.arts img{
+    border-radius: 5em;
+    width: 5%;
+    float: left;
+}
+
+
+/* Styling the About page  */
+.about{
+    color: white;
+}
+
+.off{
+    background-color: aquamarine;
+    padding: 5em;
+    color: #333;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-style: bold;
+}
+
+.mine{
+    color: #333;
+    font-size: 3em;
+}
+
+.ala{
+    color: #333;
+    font-size: 2em;
+}
+
+.she{
+    background-color: goldenrod;
+    color: aliceblue;
+    border-radius: 1em;
+}
+
+.she img{
+    width: 20%;
+    height: 20%;
+    border-radius: 2em;
+}
+
+
+
+.dep{
+    color: #000;
+    font-size: 1em;
+    background-color: aqua;
+}
+
+.him{
+    color: #333;
+    font-size: 1em;
+}
+
+
+
+/* Styling contact page  */
+.con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5em;
+    color: #000;
+    font-weight: 100;
+}
+
+.reap{
+    background-color: aqua;
+    padding: 10em;
+}
+
+.reap img{
+    width: 50%;
+    border-radius: 3em;
+    float: right;
+}
+
+
+.form{
+    color: white;
+    background-image: url(Boti+Waterfalls.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2em;
+}
+
+form{
+    color: white;
+    font-style: oblique;
+    font-weight: 100;
+}
+
+input{
+    border-radius: 1em;
+    padding: 1em;
+}
+
+button{
+    background-color: green;
+    color: aqua;
+    padding: 1em;
+    border-radius: 2em;
+    width: 15%;
+    cursor: pointer;
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: blue;
+    transform: scale(1);
+}
